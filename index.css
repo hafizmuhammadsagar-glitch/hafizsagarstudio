@@ -385,8 +385,10 @@ padding: 2px;
     width: 90%;
     max-width: 350px;
     transition: all 0.3s ease;
-
-    
+  }
+.linkyoutube{
+    text-decoration: none;
+   
   }
 
   .subscribe-box:hover {
@@ -440,6 +442,7 @@ padding: 2px;
     #count { font-size: 32px; }
     .yt-icon { width: 50px; }
   }
+
 
 
 
