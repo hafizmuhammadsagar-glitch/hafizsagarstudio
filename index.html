@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hafiz Sagar Studio </title>
+  <link rel="icon" type="img/x-icon" href="sagar.jpg">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+    <header>
+  <div id="logo">
+    <a href="http://127.0.0.1:3000/index.html#home">
+    <img src="name.png" alt="mianxpress.store">
+  </div></a>
+  <nav>
+    <a href="http://127.0.0.1:3000/index.html#home">Home</a>
+    <a href="#projects">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Menu Button (Mobile Only) -->
+  <div class="menu-btn" onclick="toggleMenu()">☰ </div>
+
+  <!-- Sidebar (Right Side) -->
+  <div class="sidebar" id="sidebar">
+    <a href="http://127.0.0.1:3000/index.html#home">🏠 Home</a>
+    <a href="#projects">ℹ️ About</a>
+    <a href="#services">💼 Services</a>
+    <a href="https://wa.me/qr/IUYGRH4CIEZTG1">📞 Contact</a>
+  </div>
+</header>
+ 
+  <section id="hero">
+    <div class="text">
+      <h2>Wellcome! to Hafiz Sagar studio</h2>
+      <h3></h3>
+      <p>
+      At Hafiz Sagar Studio, we share the message of Islam through inspiring and meaningful videos. Our goal is to spread peace, faith, and knowledge —
+       helping people connect with the beauty of the Quran and the teachings of the Prophet ﷺ.
+      </p>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+        Contact Me
+      </button>
+    </div>
+    <img src="sagar.jpg" alt="Bilal Graphic Design" />
+  </section>
+<div class="sub_count">
+    <div class="subscribe-box">
+    <img class="yt-icon" src="youtube-color-svgrepo-com.svg" alt="YouTube Logo">
+    <h2>Hafiz Sagar studio</h2>
+    <div id="count">Loading...</div>
+    <div id="label">Subscribers</div>
+  </div>
+
+    <div class="subscribe-box">
+    <img class="yt-icon" src="facebook-svgrepo-com (1).svg" alt="facebook logo">
+    <h2>Hafiz Sagar studio</h2>
+    <div id="count2">5.9+k</div>
+    <div id="label">Followers</div>
+  </div>
+
+  
+    <div class="subscribe-box">
+    <img class="yt-icon" src="tiktok-svgrepo-com.svg" alt="facebook logo">
+    <h2>Hafiz Sagar studio</h2>
+    <div id="count3">3+k</div>
+    <div id="label">Followers</div>
+  </div>
+</div>
+
+  <section id="projects">
+    <h2>About</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>My Journey as an Islamic Content Creator</h3>
+        <p>I’m Hafiz Sagar, a passionate Islamic content creator and the founder of Hafiz Sagar 
+          Studio. I create meaningful and inspiring Islamic videos to spread positivity, knowledge, and the
+           message of Islam. My content is available on YouTube, Facebook, and TikTok, where I connect with 
+           audiences through Quranic teachings, Islamic reminders, and spiritual reflections. My goal is to inspire people 
+          to strengthen their faith and live a life guided by Islamic values.</p>
+      </div>
+      <div class="project">
+        <h3>My Work in the Community</h3>
+        <p>Based in Basra Jala, a village near Shakargarh, Punjab, I serve as an Imam in 
+          the local mosque. Alongside my responsibilities, I also teach and help children memorize
+           the Holy Qur’an. My mission is to guide the younger generation toward Islamic values, strengthen 
+           their connection with faith, 
+          and nurture a love for the Qur’an within our community.</p>
+      </div>
+      <div class="project">
+        <h3>My Inspiration</h3>
+        <p>My inspiration comes from the love of the Holy Qur’an and the desire to serve Islam through knowledge and guidance. 
+          From a young age, I felt a deep connection to the teachings of the Qur’an and the beauty of Islamic values. 
+          This passion motivates me every day to guide others, especially children, toward the light of faith and good character.
+           My purpose is to continue spreading the message of peace, kindness, and truth that Islam teaches us.</p>
+      </div>
+     
+    </div>
+  <div class="gallery">
+    <div class="img-box"><img src="WhatsApp Image 2025-11-02 at 1.21.26 AM.jpeg" alt="Gallery 1"></div>
+    <div class="img-box"><img src="https://picsum.photos/500/300?2" alt="Gallery 2"></div>
+    <div class="img-box"><img src="https://picsum.photos/500/300?3" alt="Gallery 3"></div>
+    <div class="img-box"><img src="https://picsum.photos/500/300?4" alt="Gallery 4"></div>
+    <div class="img-box"><img src="https://picsum.photos/500/300?5" alt="Gallery 5"></div>
+    <div class="img-box"><img src="https://picsum.photos/500/300?6" alt="Gallery 6"></div>
+  </div>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Youtube: <a class="slink" href="https://www.youtube.com/@hafizsagarstudio">@Hafiz Sagar Studio</a></p>
+      <p>Facebook: <a class="slink" href="https://www.facebook.com/profile.php?id=61557938061472">@Hafiz Sagar studio</a></p>
+      <p>Tiktok: <a class="slink"  href="https://www.tiktok.com/@hafizsagar9?_r=1&_t=ZN-912W87gjUHe">@Hafiz Sagar studio</a></p>
+      <p>Phone: <a class="slink"  href="https://wa.me/qr/IUYGRH4CIEZTG1">Whatsapp Chat</a></p>
+       </div>
+  </section> 
+
+  <footer>
+    <p>© 2025 Hafiz Sagar Studio. All rights reserved.</p>
+  </footer>
+
+</style>
+</head>
+<body>
+<script>
+  const API_KEY = "AIzaSyBy4lDi44lfw9m0P7rVA9J5xCbuBP-zLOE";
+  const CHANNEL_ID = "UCUfddVRF-bpl1UtOERW2afw";
+
+  function formatNumber(num) {
+    if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
+    if (num >= 1000) return (num / 1000).toFixed(1) + "K";
+    return num.toString();
+  }
+
+  async function getSubscribers() {
+    try {
+      const response = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${CHANNEL_ID}&key=${API_KEY}`);
+      const data = await response.json();
+      const subs = data.items[0].statistics.subscriberCount;
+      document.getElementById("count").textContent = formatNumber(subs);
+    } catch (error) {
+      document.getElementById("count").textContent = "Error";
+      console.error(error);
+    }
+  }
+
+  getSubscribers();
+  setInterval(getSubscribers, 30000);
+</script>
+  <script src="script.js">
+   
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
